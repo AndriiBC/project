@@ -22,7 +22,7 @@ const obj = {
 };
 
 //console.log(obj.name);
-console.log(obj ["name"]);
+console.log(obj ["name"] );
 
 let arr = ['plum.png', 'orange.jpg', 6, 'apple.bmp', {}, []];
 
@@ -31,7 +31,7 @@ console.log(arr[2]);
 
      // 2.4
 
-"use strict";
+
 
 // alert('Hello');
 
@@ -54,7 +54,7 @@ const answers = [];
 
           // 2.5
 
-"use strict";
+
 
  const category = 'toys';
 
@@ -68,7 +68,7 @@ const answers = [];
 
          // 2.6
 
- "use strict";
+ 
 
  console.log('arr' + " - object");
  console.log(4 + "5");
@@ -99,5 +99,39 @@ const isChecked = true,
  console.log(isChecked || !isClosed ); // ! - оператор отрицания, превращает в противоположное значение
 
 
-        // 2.7
+        // 2.10
 
+if (4 == 9) {
+  console.log('Ok!');
+}else {
+  console.log('Error');
+}
+
+
+
+//if (num < 49) {
+//  console.log('Error');
+//} else if (num > 100) {
+ // console.log('Много');
+// }else {
+ // console.log('Ok!');
+// }
+
+// (num === 50) ? console.log('Ok!') : console.log('Error');
+
+const num = '50';
+
+switch (num) {
+  case '49':
+    console.log('Неверно');
+    break;
+  case '100':
+    console.log('Неверно');
+    break;
+  case '50':
+   console.log('В точку!');
+    break;
+ default:
+   console.log('Не в этот раз');
+   break;
+}
