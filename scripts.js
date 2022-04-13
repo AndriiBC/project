@@ -260,3 +260,13 @@ const addThree = addX(3);
 let d = addThree(c);
 console.log('example partial application', d);
 
+let name = "John";
+
+function sayHi() {
+  alert("Hi, " + name);
+}
+
+name = "Pete"; 
+
+sayHi();
+
