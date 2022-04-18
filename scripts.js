@@ -16,15 +16,15 @@ let und;
 console.log(und);
 
 const obj = {
-    name: "John",
+    //name: "John",
     age: 25,
     isMarried: false
 };
 
 //console.log(obj.name);
-console.log(obj ["name"] );
+//console.log(obj ["name"] );
 
-let arr = ['plum.png', 'orange.jpg', 6, 'apple.bmp', {}, []];
+//let arr = ['plum.png', 'orange.jpg', 6, 'apple.bmp', {}, []];
 
 console.log(arr[2]);
 
@@ -233,7 +233,7 @@ let val = 7;
     return addNumbers;
   }
   let adder = createAdder();
-  let sum = adder(val, 8);
+  //let sum = adder(val, 8);
   console.log('example of function returning a function: ', sum);
 
 function createCounter() {
@@ -290,4 +290,12 @@ var ader = {
 
 console.log(adder.add(1));         
 console.log(adder.addThruCall(1));
+
+var arr = [5, 6, 13, 0, 1, 18, 23];
+
+var sum = arr.reduce((a, b) => a + b);
+
+var even = arr.filter(v => v % 2 == 0);
+
+var double = arr.map(v => v * 2);
 
