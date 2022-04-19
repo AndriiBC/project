@@ -166,16 +166,16 @@ for (let i = 1; i <8; i++) {
 
 //    2.13
 
-let num = 20;
+//let num = 20;
 
 function showFirstMessage(text) {
   console.log(text);
-  num = 10;
+ // num = 10;
   console.log(num);
 }
 
 showFirstMessage("Hello World");
-console.log(num);
+//console.log(num);
 
 //function calc(a, b) {
 //  return (a + b);
@@ -186,12 +186,12 @@ console.log(num);
 //console.log(calc(10, 6));
 
 function ret() {
-  let num = 50;
+  //let num = 50;
 
   //
 
 
-  return num;
+  //return num;
 }
 
 const anotherNum = ret();
@@ -260,13 +260,13 @@ const addThree = addX(3);
 let d = addThree(c);
 console.log('example partial application', d);
 
-let name = "John";
+//let name = "John";
 
 function sayHi() {
   alert("Hi, " + name);
 }
 
-name = "Pete"; 
+//name = "Pete"; 
 
 sayHi();
 
@@ -298,4 +298,31 @@ var sum = arr.reduce((a, b) => a + b);
 var even = arr.filter(v => v % 2 == 0);
 
 var double = arr.map(v => v * 2);
+
+
+const str = "test";
+//const arr = [1, 2, 4];
+
+//console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+console.log(str);
+
+let fruit ="Some fruit";
+
+console.log(fruit.indexOf(fruit));
+
+const logg = "Hello world";
+
+//console.log(logg.slice(6, 11));
+
+//console.log(logg.substring(6, 11));
+
+console.log(logg.substr(6, 5));
+
+const num = 12.2;
+console.log(Math.round(num));
+
+const test = "12,2px";
+//console.log(parseInt(test));
+console.log(parseFloat(test));
 
