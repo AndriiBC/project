@@ -208,12 +208,12 @@ const calc = (a, b) => {
   return a + b;
 } ;
 
-let a = 3;
+//let a = 3;
 function addTwo(x) {
    let ret = x + 2;
    return ret;
 }
-let b = addTwo(a);
+//let b = addTwo(a);
 console.log(b);
 
 let val1 = 2;
@@ -325,4 +325,15 @@ console.log(Math.round(num));
 const test = "12,2px";
 //console.log(parseInt(test));
 console.log(parseFloat(test));
+
+
+var a = 'a';
+var b = 'b';
+if (a < b) { // true
+  print(a + ' меньше чем ' + b);
+} else if (a > b) {
+  print(a + ' больше чем ' + b);
+} else {
+  print(a + ' и ' + b + ' равны.');
+}
 
