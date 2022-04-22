@@ -297,7 +297,7 @@ var sum = arr.reduce((a, b) => a + b);
 
 var even = arr.filter(v => v % 2 == 0);
 
-var double = arr.map(v => v * 2);
+//var double = arr.map(v => v * 2);
 
 
 const str = "test";
@@ -343,4 +343,24 @@ var smallestNum = Number.MIN_VALUE;
 var infiniteNum = Number.POSITIVE_INFINITY;
 var negInfiniteNum = Number.NEGATIVE_INFINITY;
 var notANum = Number.NaN;
+
+
+let single = 'single-quoted';
+let double = "double-quoted";
+let backticks = `backticks`;
+
+let guestInList = `Guests:
+ * John
+ * Pete
+ * Mary
+`;
+
+alert(guestInList);
+
+let guestList = "Guests:\n * John\n * Pete\n * Mary";
+
+alert(guestList);
+
+alert( 'I\'m the Walrus!' );
+alert( `I'm the Walrus!` );
 
