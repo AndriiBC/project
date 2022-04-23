@@ -300,12 +300,12 @@ var even = arr.filter(v => v % 2 == 0);
 //var double = arr.map(v => v * 2);
 
 
-const str = "test";
+//const str = "test";
 //const arr = [1, 2, 4];
 
 //console.log(str.toUpperCase());
-console.log(str.toLowerCase());
-console.log(str);
+//console.log(str.toLowerCase());
+//console.log(str);
 
 let fruit ="Some fruit";
 
@@ -364,3 +364,11 @@ alert(guestList);
 alert( 'I\'m the Walrus!' );
 alert( `I'm the Walrus!` );
 
+
+let str = `Hello`;
+
+alert( str[0] ); 
+alert( str.charAt(0) ); 
+
+
+alert( str[str.length - 1] );
