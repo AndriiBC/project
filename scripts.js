@@ -365,10 +365,23 @@ alert( 'I\'m the Walrus!' );
 alert( `I'm the Walrus!` );
 
 
-let str = `Hello`;
+//let str = `Hello`;
 
-alert( str[0] ); 
-alert( str.charAt(0) ); 
+//alert( str[0] ); 
+//alert( str.charAt(0) ); 
 
 
-alert( str[str.length - 1] );
+//alert( str[str.length - 1] );
+
+for (let char of "Hello") {
+  alert(char); 
+}
+
+let str = 'Hi';
+
+str = 'h' + str[1]; 
+
+alert( str );
+
+alert( 'Interface'[0].toLowerCase() );
+
