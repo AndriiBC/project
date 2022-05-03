@@ -377,11 +377,50 @@ for (let char of "Hello") {
   alert(char); 
 }
 
-let str = 'Hi';
+//let str = 'Hi';
 
-str = 'h' + str[1]; 
+//str = 'h' + str[1]; 
 
-alert( str );
+//alert( str );
 
 alert( 'Interface'[0].toLowerCase() );
+
+
+//let str = 'Widget with id';
+
+//alert( str.indexOf('Widget') ); 
+//alert( str.indexOf('widget') ); 
+
+//alert( str.indexOf("id") );
+
+//let str = 'Widget with id';
+
+//alert( str.indexOf('id', 2) );
+
+let str = 'Ослик Иа-Иа посмотрел на виадук';
+
+let target = 'Иа'; // цель поиска
+
+let pos = 0;
+while (true) {
+  let foundPos = str.indexOf(target, pos);
+  //if (foundPos == -1) break;&
+
+  alert( `Найдено тут: ${foundPos}` );
+  pos = foundPos + 1; 
+}
+
+//let str = "Ослик Иа-Иа посмотрел на виадук";
+//let target = "Иа";
+
+//let pos = -1;
+while ((pos = str.indexOf(target, pos + 1)) != -1) {
+  alert( pos );
+}
+
+//let str = "Widget with id";
+
+if (str.indexOf("Widget") != -1) {
+    alert("Совпадение есть"); 
+}
 
